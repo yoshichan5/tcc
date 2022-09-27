@@ -1,0 +1,67 @@
+sheet_name: シート名
+
+親テストスイート1(大項目):
+  - テストスイート1(中項目):
+    - サブテストスイート1(小項目):
+      - description: テストの概要
+        procedure: |
+          1. 手順1
+          2. 手順2 
+        expected_value: |
+          1. 〇〇できること
+          2. 〇〇できること
+        category: 正常系
+        result: OK
+        operator: オペレータ名
+        operate_day: 2022/09/26
+        verifier: 承認者名
+        verify_day: 2022/09/26
+        comment: 備考
+    - サブテストスイート2(小項目):
+      - description: テストの概要
+        procedure: |
+          1. 手順1
+          2. 手順2 
+        expected_value: |
+          1. 〇〇できること
+          2. 〇〇できること
+        category: 正常系
+        result: OK
+        operator: オペレータ名
+        operate_day: 2022/09/26
+        verifier: 承認者名
+        verify_day: 2022/09/26
+        comment: 備考
+  - テストスイート2(中項目):
+    - サブテストスイート1(小項目):
+      - description: テストの概要
+        procedure: |
+          1. 手順1
+          2. 手順2 
+        expected_value: |
+          1. 〇〇できること
+          2. 〇〇できること
+        category: 正常系
+        result: OK
+        operator: オペレータ名
+        operate_day: 2022/09/26
+        verifier: 承認者名
+        verify_day: 2022/09/26
+        comment: 備考
+親テストスイート2(大項目):
+  - テストスイート1(中項目):
+    - サブテストスイート1(小項目):
+      - description: テストの概要
+        procedure: |
+          1. 手順1
+          2. 手順2 
+        expected_value: |
+          1. 〇〇できること
+          2. 〇〇できること
+        category: 正常系
+        result: OK
+        operator: オペレータ名
+        operate_day: 2022/09/26
+        verifier: 承認者名
+        verify_day: 2022/09/26
+        comment: 備考
