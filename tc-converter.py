@@ -54,7 +54,7 @@ class Converter():
 
     def load_yaml(self, yaml_file):
         """yamlの読み込み"""
-        with open(yaml_file) as f:
+        with open(yaml_file, encoding='utf-8') as f:
             obj = yaml.safe_load(f)
             logger.info(obj)
             self._yaml_list.append(obj)
